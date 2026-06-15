@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="The hidden cost: duplicated evaluation systems versus one shared platform">
+  <rect width="1200" height="480" fill="#f8fafc"/>
+  <text x="600" y="54" text-anchor="middle" font-size="28" font-weight="700" fill="#0f172a">The hidden cost of AI engineering</text>
+  <text x="600" y="84" text-anchor="middle" font-size="16" fill="#64748b">Organizations don't struggle to build evaluation systems — they struggle because they keep rebuilding them.</text>
+
+  <!-- LEFT: fragmentation -->
+  <rect x="60" y="118" width="520" height="320" rx="16" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+  <text x="320" y="150" text-anchor="middle" font-size="17" font-weight="700" letter-spacing="1" fill="#b91c1c">WITHOUT A PLATFORM</text>
+
+  <!-- scattered duplicate boxes -->
+  <g font-size="11" fill="#7f1d1d">
+    <rect x="90"  y="178" width="130" height="58" rx="9" fill="#ffffff" stroke="#f87171" stroke-width="1.3"/>
+    <text x="155" y="203" text-anchor="middle">Eval system A</text>
+    <text x="155" y="221" text-anchor="middle" font-size="10" fill="#ef4444">own dataset + dash</text>
+
+    <rect x="250" y="200" width="130" height="58" rx="9" fill="#ffffff" stroke="#f87171" stroke-width="1.3"/>
+    <text x="315" y="225" text-anchor="middle">Eval system B</text>
+    <text x="315" y="243" text-anchor="middle" font-size="10" fill="#ef4444">own scoring</text>
+
+    <rect x="410" y="180" width="130" height="58" rx="9" fill="#ffffff" stroke="#f87171" stroke-width="1.3"/>
+    <text x="475" y="205" text-anchor="middle">Eval system C</text>
+    <text x="475" y="223" text-anchor="middle" font-size="10" fill="#ef4444">own regression</text>
+
+    <rect x="110" y="270" width="130" height="58" rx="9" fill="#ffffff" stroke="#f87171" stroke-width="1.3"/>
+    <text x="175" y="295" text-anchor="middle">Eval system D</text>
+    <text x="175" y="313" text-anchor="middle" font-size="10" fill="#ef4444">own review flow</text>
+
+    <rect x="285" y="288" width="130" height="58" rx="9" fill="#ffffff" stroke="#f87171" stroke-width="1.3"/>
+    <text x="350" y="313" text-anchor="middle">Eval system E</text>
+    <text x="350" y="331" text-anchor="middle" font-size="10" fill="#ef4444">own metrics</text>
+
+    <rect x="430" y="278" width="130" height="58" rx="9" fill="#ffffff" stroke="#f87171" stroke-width="1.3"/>
+    <text x="495" y="303" text-anchor="middle">Eval system F</text>
+    <text x="495" y="321" text-anchor="middle" font-size="10" fill="#ef4444">own dashboard</text>
+  </g>
+  <text x="320" y="392" text-anchor="middle" font-size="14.5" font-weight="600" fill="#b91c1c">Each decision is locally sensible.</text>
+  <text x="320" y="414" text-anchor="middle" font-size="14.5" fill="#dc2626">Collectively: duplicated infrastructure, fragmentation,</text>
+  <text x="320" y="433" text-anchor="middle" font-size="14.5" fill="#dc2626">and engineering effort that quietly disappears.</text>
+
+  <!-- arrow -->
+  <g>
+    <line x1="592" y1="278" x2="616" y2="278" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="616,270 634,278 616,286" fill="#94a3b8"/>
+  </g>
+
+  <!-- RIGHT: consolidated platform -->
+  <rect x="640" y="118" width="500" height="320" rx="16" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.5"/>
+  <text x="890" y="150" text-anchor="middle" font-size="17" font-weight="700" letter-spacing="1" fill="#047857">WITH A SHARED PLATFORM</text>
+
+  <rect x="780" y="180" width="220" height="74" rx="12" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+  <text x="890" y="210" text-anchor="middle" font-size="16" font-weight="700" fill="#065f46">One evaluation platform</text>
+  <text x="890" y="232" text-anchor="middle" font-size="12" fill="#059669">datasets · metrics · regression · review</text>
+
+  <!-- consumers -->
+  <g font-size="12.5" fill="#065f46">
+    <line x1="780" y1="217" x2="710" y2="300" stroke="#34d399" stroke-width="2"/>
+    <line x1="890" y1="254" x2="890" y2="300" stroke="#34d399" stroke-width="2"/>
+    <line x1="1000" y1="217" x2="1070" y2="300" stroke="#34d399" stroke-width="2"/>
+    <rect x="660"  y="300" width="100" height="40" rx="9" fill="#ffffff" stroke="#34d399" stroke-width="1.3"/>
+    <text x="710" y="325" text-anchor="middle">team 1</text>
+    <rect x="840"  y="300" width="100" height="40" rx="9" fill="#ffffff" stroke="#34d399" stroke-width="1.3"/>
+    <text x="890" y="325" text-anchor="middle">team 2</text>
+    <rect x="1020" y="300" width="100" height="40" rx="9" fill="#ffffff" stroke="#34d399" stroke-width="1.3"/>
+    <text x="1070" y="325" text-anchor="middle">team N…</text>
+  </g>
+  <text x="890" y="392" text-anchor="middle" font-size="14.5" font-weight="600" fill="#047857">Build the capability once.</text>
+  <text x="890" y="414" text-anchor="middle" font-size="14.5" fill="#059669">Every team consumes it. Standardized,</text>
+  <text x="890" y="433" text-anchor="middle" font-size="14.5" fill="#059669">governed, and consistent over time.</text>
+</svg>

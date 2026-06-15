@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Claude Code built an evaluation system; Neo MCP built evaluation infrastructure">
+  <rect width="1200" height="560" fill="#f8fafc"/>
+  <text x="600" y="58" text-anchor="middle" font-size="32" font-weight="700" fill="#0f172a">Claude Code built an evaluation <tspan fill="#d97706">system</tspan>.</text>
+  <text x="600" y="98" text-anchor="middle" font-size="32" font-weight="700" fill="#0f172a">Neo MCP built evaluation <tspan fill="#6366f1">infrastructure</tspan>.</text>
+
+  <!-- LEFT CARD: Claude Code -->
+  <rect x="60" y="140" width="500" height="380" rx="18" fill="#ffffff" stroke="#fcd34d" stroke-width="2"/>
+  <rect x="60" y="140" width="500" height="56" rx="18" fill="#fffbeb"/>
+  <rect x="60" y="170" width="500" height="26" fill="#fffbeb"/>
+  <text x="84" y="176" font-size="15" font-weight="700" letter-spacing="1.5" fill="#b45309">CLAUDE CODE</text>
+  <text x="84" y="238" font-size="24" font-weight="700" fill="#0f172a">Evaluation System</text>
+
+  <!-- mini diagram: one eval box bound to one agent -->
+  <rect x="100" y="270" width="180" height="56" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="190" y="304" text-anchor="middle" font-size="15" font-weight="600" fill="#92400e">Evaluation</text>
+  <line x1="280" y1="298" x2="350" y2="298" stroke="#f59e0b" stroke-width="2.5"/>
+  <polygon points="350,292 364,298 350,304" fill="#f59e0b"/>
+  <rect x="364" y="270" width="150" height="56" rx="10" fill="#fff7ed" stroke="#fb923c" stroke-width="1.5"/>
+  <text x="439" y="304" text-anchor="middle" font-size="15" font-weight="600" fill="#9a3412">One agent</text>
+
+  <text x="100" y="372" font-size="15" fill="#475569">• Evaluation workflows</text>
+  <text x="100" y="400" font-size="15" fill="#475569">• Metrics &amp; scoring</text>
+  <text x="100" y="428" font-size="15" fill="#475569">• Orchestration &amp; reporting</text>
+  <rect x="100" y="452" width="360" height="40" rx="20" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="120" y="477" font-size="14.5" font-weight="600" fill="#b45309">Optimized for the benchmark in front of it</text>
+
+  <!-- divider arrow -->
+  <circle cx="600" cy="330" r="30" fill="#eef2ff" stroke="#c7d2fe" stroke-width="2"/>
+  <path d="M587 330 h20 M601 322 l8 8 -8 8" fill="none" stroke="#6366f1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- RIGHT CARD: Neo MCP -->
+  <rect x="640" y="140" width="500" height="380" rx="18" fill="#ffffff" stroke="#a5b4fc" stroke-width="2"/>
+  <rect x="640" y="140" width="500" height="56" rx="18" fill="#eef2ff"/>
+  <rect x="640" y="170" width="500" height="26" fill="#eef2ff"/>
+  <text x="664" y="176" font-size="15" font-weight="700" letter-spacing="1.5" fill="#4338ca">CLAUDE CODE + NEO MCP</text>
+  <text x="664" y="238" font-size="24" font-weight="700" fill="#0f172a">Evaluation Infrastructure</text>
+
+  <!-- mini diagram: one platform consumed by many agents -->
+  <rect x="680" y="268" width="160" height="58" rx="10" fill="#e0e7ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="760" y="294" text-anchor="middle" font-size="14" font-weight="700" fill="#3730a3">Eval Platform</text>
+  <text x="760" y="312" text-anchor="middle" font-size="11" fill="#6366f1">shared capability</text>
+  <g stroke="#818cf8" stroke-width="2">
+    <line x1="840" y1="284" x2="900" y2="272"/>
+    <line x1="840" y1="297" x2="900" y2="297"/>
+    <line x1="840" y1="310" x2="900" y2="322"/>
+  </g>
+  <rect x="900" y="258" width="100" height="28" rx="8" fill="#f5f3ff" stroke="#a78bfa" stroke-width="1.3"/>
+  <text x="950" y="277" text-anchor="middle" font-size="12.5" fill="#6d28d9">agent A</text>
+  <rect x="900" y="283" width="100" height="28" rx="8" fill="#f5f3ff" stroke="#a78bfa" stroke-width="1.3"/>
+  <text x="950" y="302" text-anchor="middle" font-size="12.5" fill="#6d28d9">agent B</text>
+  <rect x="900" y="308" width="100" height="28" rx="8" fill="#f5f3ff" stroke="#a78bfa" stroke-width="1.3"/>
+  <text x="950" y="327" text-anchor="middle" font-size="12.5" fill="#6d28d9">agent N…</text>
+
+  <text x="680" y="372" font-size="15" fill="#475569">• Reusable datasets &amp; pluggable metrics</text>
+  <text x="680" y="400" font-size="15" fill="#475569">• Regression detection as a capability</text>
+  <text x="680" y="428" font-size="15" fill="#475569">• Standalone review + extensible instrumentation</text>
+  <rect x="680" y="452" width="400" height="40" rx="20" fill="#eef2ff" stroke="#a5b4fc" stroke-width="1.5"/>
+  <text x="700" y="477" font-size="14.5" font-weight="600" fill="#4338ca">Optimized for every future agent not yet built</text>
+</svg>
